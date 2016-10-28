@@ -10,5 +10,12 @@
     "pregunta": "Where are the best surf breaks?",
     "additional": "I've heard Todos Santos is the best.",
     "author": "John Mellor"
+  }],
+  "answers": [{
+    "response": "Beach life is righteous.",
+    "author": "Damon"
+  }, {
+    "response": "Yes, there are tacos.",
+    "author": "Jamie"
   }]
 }
