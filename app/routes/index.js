@@ -9,8 +9,8 @@ var questions = [{
   additional: "I love Mexican food!",
   author: "Paul Simonon"
 }, {
-  pregunta: "When is the best time of year to visit?",
-  additional: "I've heard winter is the best.",
+  pregunta: "Where are the best surf breaks?",
+  additional: "I've heard Todos Santos is the best.",
   author: "John Mellor"
 }];
 
