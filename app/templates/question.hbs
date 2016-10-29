@@ -1,8 +1,11 @@
-<h2>{{model.pregunta}}</h2>
-<h3>By {{model.author}}</h3>
+<h2>Question:</h2>
 
 {{question-detail question=model}}
 
+<div class="col-sm-6">
 {{update-question question=model update="update"}}
+</div>
 
+<div class="col-sm-6">
 {{new-answer saveAnswer="saveAnswer" question=model}}
+</div>
