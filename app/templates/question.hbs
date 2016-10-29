@@ -1,7 +1,8 @@
-<h2>More information about {{model.author}}'s {{model.pregunta}}</h2>
-
-{{update-question question=model update="update"}}
+<h2>{{model.pregunta}}</h2>
+<h3>By {{model.author}}</h3>
 
 {{question-detail question=model}}
+
+{{update-question question=model update="update"}}
 
 {{new-answer saveAnswer="saveAnswer" question=model}}
