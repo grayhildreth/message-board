@@ -1,1 +1,28 @@
+.jumbotron {
+  opacity: .7;
+  margin-top: 20px;
+  background-image: url(http://blog.martymagic.com/wp-content/uploads/2013/11/Sunset-over-Zacititos-Mountains.jpg);
+  background-size: cover;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.1em;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  align-items: center;
+}
 
+.jumbotron h1{
+    color: #F7EF81;
+  }
+
+.jumbotron h2{
+    color: white;
+  }
+
+body {
+  background-color: #FFDFC9;
+}
+
+h1, h2, h4 {
+  color: #454548;
+}

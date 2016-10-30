@@ -17,9 +17,9 @@
         {{input value=author id="author" placeholder=question.author}}
       </div>
 
-      <button {{action 'update' question}}>Save</button>
+      <button type="button" class="btn btn-danger" {{action 'update' question}}>Save</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'updateQuestionForm'}}>Update Question</button>
+  <button type="button" class="btn btn-danger" {{action 'updateQuestionForm'}}>Update Question</button>
 {{/if}}
