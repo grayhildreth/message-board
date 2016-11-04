@@ -1,12 +1,16 @@
 # _Message Board_
 
-#### _A message board where user can post questions, and other users can post answers, {October 29th, 2016}_
+#### _A message board where user can post questions, and other users can post answers, October 29th, 2016
+
+Latest version November 4th, 2016_
 
 #### By _**Gray Hildreth**_
 
 ## Description
 
-_This message board app allows users to post questions that display on the main page. Other users can then link to the question's individual page where they are able to post answers that will be displayed only within that page. Users are also able to update the content of the question within a selected question's page. Changes will appear across the site._
+_This message board app allows users to post questions that display on the main page. Other users can then link to the question's individual page where they are able to post answers that will be displayed only within that page. Users are also able to update the content of the question within a selected question's page. Changes will appear across the site.
+
+Update - Home page now displays amount of each question has been answered underneath each individual question.  Questions that have received three answers or more display a glyphicon above the question.  Last, users are now able to favorite questions.  Favorited questions are added to the **Favorite Questions** page, and can be accessed at a later time._
 
 
 ## Prerequisites
