@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   color: white;
   text-shadow: black 0.1em 0.1em 0.1em;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: 'Shrikhand', cursive;
 }
 
 .jumbotron h1{
@@ -18,10 +18,17 @@
     color: white;
   }
 
-body {
-  background-color: #FFDFC9;
+  h1, h2  {
+    color: #454548;
+    font-family: 'Shrikhand', cursive;
+  }
+
+.links a  {
+  color: white;
 }
 
-h1, h2, h4 {
-  color: #454548;
+body {
+  background-color: #FFDFC9;
+  font-family: 'Raleway', sans-serif;
+  color: #415778;
 }
