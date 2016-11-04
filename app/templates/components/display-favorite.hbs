@@ -1,4 +1,6 @@
+<h2>Favorite Questions</h2>
+
 {{#each favoriteQuestion.questions as |question|}}
-  {{#link-to 'question' question.id}}{{question.pregunta}}{{/link-to}}<br>By: {{question.author}}
+  {{#link-to 'question' question.id}}{{question.pregunta}}{{/link-to}} <br>By: {{question.author}}
   <hr>
 {{/each}}

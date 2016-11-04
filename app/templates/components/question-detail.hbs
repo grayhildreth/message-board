@@ -1,13 +1,13 @@
-<h2>Question:</h2>
 <div class="col-sm-6">
-  {{question.pregunta}} <br>{{question.additional}} <br> By {{question.author}}
+<h2>Question:</h2>
+  <h4>{{question.pregunta}}</h4>
+  <span style="font-weight:bold">Additional Details:</span><br> {{question.additional}}<br>
+  <h6> Posted by {{question.author}}</h6>
 </div>
 
 <div class="col-sm-6">
-  <h2> Answers </h2>
-  <ul>
+  <h2> Answers: </h2>
     {{#each question.answers as |answer|}}
-      {{answer-tile answer=answer}}
+      {{answer-tile answer=answer}}<br>
     {{/each}}
-  </ul>
 </div>

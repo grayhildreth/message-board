@@ -1,8 +1,8 @@
-<h2>Post your questions here!</h2>
-
+<h2>Recent Questions:</h2>
+<br>
 <ul>
   {{#each model.questions as |question|}}
-    {{question-tile question=question}} {{question-popularity question}}
+    {{question-popularity question}} {{question-tile question=question}}
     <hr>
   {{/each}}
 </ul>
