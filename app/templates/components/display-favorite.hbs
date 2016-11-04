@@ -1,3 +1,4 @@
 {{#each favoriteQuestion.questions as |question|}}
-  {{question.pregunta}}<br>By: {{question.author}}
+  {{#link-to 'question' question.id}}{{question.pregunta}}{{/link-to}}<br>By: {{question.author}}
+  <hr>
 {{/each}}
