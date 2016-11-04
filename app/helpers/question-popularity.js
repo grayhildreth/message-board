@@ -5,7 +5,7 @@ export function questionPopularity(params/*, hash*/) {
 
 if(question.get('answers').get('length') >= 2) {
   return Ember.String.htmlSafe('<span class="glyphicon glyphicon-certificate"></span>');
-}
+  } 
 }
 
 export default Ember.Helper.helper(questionPopularity);
