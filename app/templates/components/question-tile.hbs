@@ -1,3 +1,5 @@
 <li>
   {{#link-to 'question' question.id}}{{question.pregunta}}{{/link-to}} <br>By {{question.author}} <br> Answer Total: {{answerCount}}
 </li>
+
+<button {{action 'addToFavorites' question}}>Add to Favorites</button>
